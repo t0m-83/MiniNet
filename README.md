@@ -1,5 +1,9 @@
 # MiniNet
 
+<p align="center">
+  <img src="assets/banner.jpg" alt="MinitNet - DHCP & DNS" width="100%">
+</p>
+
 **MiniNet** est un serveur DHCP et DNS intégré, écrit en Elixir avec supervision OTP.  
 Il distribue des adresses IP, résout les noms d'hôtes des clients et forward les requêtes externes — le tout avec des logs en temps réel dans la console.
 
@@ -19,6 +23,14 @@ Il distribue des adresses IP, résout les noms d'hôtes des clients et forward l
 | `DHCPRELEASE` | Le client libère son adresse IP |
 | `DHCPDECLINE` | Le client signale un conflit d'adresse |
 | `DHCPINFORM` | Config réseau pour les clients en IP statique |
+
+<p align="center">
+  <img src="assets/Launch_Console.png" alt="MinitNet - Console" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/Attribution_IP.png" alt="MinitNet - IP Lease" width="100%">
+</p>
 
 ### DNS
 
